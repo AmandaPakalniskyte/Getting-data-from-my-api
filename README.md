@@ -47,3 +47,5 @@ Download
 Run the following command to start your Node application:
 
   npm run dev
+
+Install Live server extension. In html file click the right mouse button and select "Open with live server"

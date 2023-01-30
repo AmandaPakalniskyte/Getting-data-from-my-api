@@ -18,7 +18,7 @@ axios.request(allMovies).then(function (response) {
 
 const allMoviesFromOneNewspaper = {
   method: 'GET',
-  url: 'https://movies-api6.p.rapidapi.com/movies/cnn',
+  url: 'https://movies-api6.p.rapidapi.com/movies/independent',
   headers: {
     'X-RapidAPI-Key': '70f657fa73msh02069ed7178e759p15d430jsn0de064ecdace',
     'X-RapidAPI-Host': 'movies-api6.p.rapidapi.com'
