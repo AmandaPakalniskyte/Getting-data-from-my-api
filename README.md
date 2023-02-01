@@ -11,14 +11,14 @@ This project is intended to show how to get data about movies (articles (name of
 
     **npm init**
 
-The command npm init creates a package.json
+    The command npm init creates a package.json
 
 
 3.  Write this command in the Terminal
 
     **npm install axios**
 
-It installs the axios package as a dependency in your project. There will be a new package-lock.json file and a node_modules folder in the project folder.
+    It installs the axios package as a dependency in your project. There will be a new package-lock.json file and a node_modules folder in the project folder.
 
 
 4. Run the following command in your project’s root directory to install nodemon as a dev dependency.  Nodemon is an excellent local development tool that automatically restarts the Node application whenever it detects a file change in the directory:
@@ -28,10 +28,10 @@ It installs the axios package as a dependency in your project. There will be a n
 
 5. Modify "scripts" in your package.json, like this:
 
-"scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
-  },
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+      },
   
 6. Include this scipt tag in tour html file before the head tag 
 
