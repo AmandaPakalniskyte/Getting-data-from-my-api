@@ -1,21 +1,32 @@
+# GETTING DATA FROM AN API
+
+This project is intended to show how to get data (get new about movies from different newspapers) from an api using axios.
+
+# Requirements
+
+1. Download node from https://nodejs.org/en/download/
+
+
+2. Open your project on Visual Studio Code. Open the Terminal and write this in the command line:
+
+**npm init**
 
 The command npm init creates a package.json
 
-npm init
-then enter enter enter
+
+3.  Write this command in the Terminal
+
+**npm install axios**
+
+It installs the axios package as a dependency in your project. There will be a new package-lock.json file and a node_modules folder in the project folder.
 
 
-The last command, npm install axios, installs the axios package as a dependency in your project. There will be a new package-lock.json file and a node_modules folder in the project folder.
+4. Run the following command in your project’s root directory to install nodemon as a dev dependency.  Nodemon is an excellent local development tool that automatically restarts the Node application whenever it detects a file change in the directory:
 
-npm install axios
-
-
-Run the following command in your project’s root directory to install nodemon as a dev dependency.  Nodemon is an excellent local development tool that automatically restarts the Node application whenever it detects a file change in the directory:
-
-npm install -D nodemon
+**npm install -D nodemon**
 
 
-Modify "scripts" in your package.json, like this:
+5. Modify "scripts" in your package.json, like this:
 
 "scripts": {
     "start": "node index.js",
@@ -23,29 +34,15 @@ Modify "scripts" in your package.json, like this:
   },
 
 
+ 6. Include this scipt tag in tour html file before the head tag 
+
+    **<script src="node_modules/axios/dist/axios.min.js"></script>**
   
-  Paste this in your html file:
-  <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Website</title>
-    <script src="node_modules/axios/dist/axios.min.js"></script>
-  </head>
-  <body>
-    <main>
-        <h1>Welcome to My Website</h1>  
-    </main>
-     <script src="index.js"></script>
-  </body>
-</html>
 
-Download
+7. Run the following command to start your Node application:
 
-Run the following command to start your Node application:
+  **npm run dev**
 
-  npm run dev
 
-Install Live server extension. In html file click the right mouse button and select "Open with live server"
+8. Install "Live server" extension. In html file click the right mouse button and select "Open with live server".
+In your JavaScript file comment this line **const axios = require("axios");** if you want to see the data in the browser. If you do not comment this file, you will see the data in the Terminal.

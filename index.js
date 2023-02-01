@@ -1,5 +1,10 @@
 'use strict';
 
+// When not commented, shows data in the terminal.
+// When comented, shows data in the browser.
+
+// const axios = require("axios");
+
 const allMovies = {
   method: 'GET',
   url: 'https://movies-api6.p.rapidapi.com/movies',
