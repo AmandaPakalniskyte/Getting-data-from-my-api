@@ -44,4 +44,4 @@ This project is intended to show how to get data about movies (articles (name of
 
 
 8. Install "Live server" extension. In html file click the right mouse button and select "Open with live server".
-In your JavaScript file comment this line **const axios = require("axios");**. If you want to see the data in the browser. If you do not comment this file, you will see the data in the Terminal.
+In your JavaScript file comment this line **const axios = require("axios");** if you want to see the data in the browser. If you do not comment this file, you will see the fetched data in the Terminal.
